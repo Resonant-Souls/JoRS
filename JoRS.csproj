@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="..\tModLoader.targets" />
+
+	<ItemGroup>
+		<InternalsVisibleTo Include="SecretsOfTheSouls" />
+		<InternalsVisibleTo Include="ResonantSouls" />
+	</ItemGroup>
+
+	<ItemGroup>
+
+		<Reference Include="Fargowiltas">
+	    	<HintPath>..\ModAssemblies\Fargowiltas_v3.4.dll</HintPath>
+		</Reference>
+
+		<Reference Include="FargowiltasSouls">
+	    	<HintPath>..\ModAssemblies\FargowiltasSouls_v1.8.dll</HintPath>
+		</Reference>
+
+		<Reference Include="FargoSeeds">
+	    	<HintPath>..\ModAssemblies\FargoSeeds_v1.0.dll</HintPath>
+		</Reference>
+
+		<Reference Include="Luminance">
+	    	<HintPath>..\ModAssemblies\Luminance_v1.0.13.dll</HintPath>
+		</Reference>
+
+		<Reference Include="Redemption">
+	    	<HintPath>..\ModAssemblies\Redemption_v0.8.0.4084.dll</HintPath>
+		</Reference>
+	
+		<Reference Include="ContinentOfJourney">
+	    	<HintPath>..\ModAssemblies\ContinentOfJourney_v0.8.70.46.dll</HintPath>
+		</Reference>
+
+	</ItemGroup>
+
+</Project>

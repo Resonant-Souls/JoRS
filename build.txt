@@ -1,0 +1,10 @@
+displayName = Journey of the Redeemed Souls
+author = JoRS Development Team
+version = 0.1
+hideCode = false
+hideResources = false
+modReferences = Fargowiltas, Luminance, FargoSeeds, FargowiltasSouls
+weakReferences = Redemption, ContinentOfJourney
+includePDB = true
+includeSource = true
+buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*, .git\*, *.dll, *.sln, *.gitignore, lib\*, *.gitignore, *.gitattributes
