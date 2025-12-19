@@ -7,6 +7,11 @@ namespace JoRS.Core
             public const string Name = "Fargowiltas";
             public static Mod Mod => ModLoader.GetMod(Name);
         }
+        public static class Daybreak
+        {
+            public const string Name = "Daybreak";
+            public static Mod Mod => ModLoader.GetMod(Name);
+        }
         public static class FargoSeeds
         {
             public const string Name = "FargoSeeds";
@@ -30,7 +35,7 @@ namespace JoRS.Core
         }
         public static class Homeward
         {
-            public const string Name = "Homeward";
+            public const string Name = "ContinentOfJourney";
             public static bool Loaded => ModLoader.HasMod(Name);
             public static Mod Mod => ModLoader.GetMod(Name);
         }
